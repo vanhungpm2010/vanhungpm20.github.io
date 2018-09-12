@@ -1,0 +1,162 @@
+nav#navbar ul li:nth-child(5) a{
+	color: red;
+}
+ul.bread {
+	margin: 20px 0 0;
+	    padding: 10px 0px;
+}
+li a{
+	color: #333;
+}
+ul.bread > li{
+	display: inline-block;
+	padding: 5px 0; 
+}
+ul.bread > li + li:before{
+	content: "/\00a0";
+	color: #333;
+}
+ul.bread > li > a:hover{
+	color: red;
+	text-decoration: none;
+}
+ul.dropdown-menu li{
+	width: 100%;
+}
+ul.dropdown-menu >li >a{
+	padding: 3px 20px;
+	display: block;
+	font-size: 14px;
+}
+ul.dropdown-menu li a:hover{
+	background-color: #bdbdbd;
+	color: #333;
+	text-decoration: none;
+}
+section#page-wrapper .row {
+	margin-right: 0;
+	margin-left: 0;
+}
+div.i-tile{
+	position: relative;
+}
+div.i-title h3{
+	position: relative;
+	text-transform: uppercase;
+	font-size: 20px;
+	z-index: 5;
+	display: inline-block;
+	    background-color: #fcfcfc;
+    padding: 20px 20px 10px;
+}
+div.i-content {
+	text-align: center;
+}
+div.i-content img{
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
+div.i-content h2{
+	font-size: 20px;
+    padding-top: 8px;
+    text-transform: uppercase;
+}
+div.i-content h2 a{
+	color: #333;
+	font-size: 13px;
+}
+div.i-content a:hover{
+	color: red;
+	text-decoration: none;
+}
+.price span {
+	font-size: 20px;
+	font-weight: bold;
+}
+div.tool a{
+	border: 1px solid #333;
+    padding: 5px 10px;
+    font-size: 14px;
+    color: #333;
+}
+div.tool a:hover {
+	background-color: #000;
+	color: #fff;
+}
+div#orderModal .modal-dialog {
+    min-width: 1170px;
+    width: 90%;
+    max-width: 850px;
+}
+.modal-header {
+	padding: 7px 10px !important;
+	background-color: #000;
+	color: #fff;
+}
+.modal-header .modal-title {
+	font-size: 18px;
+}
+.modal-header .close {
+	color: #fff;
+}
+button.close:hover {
+	outline: none;
+	color: #fff;
+}
+.modal-body img{
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
+div#product-content li h1{
+	font-size: 17px;
+}
+/*div#product-content li strong, sup{
+	color: red;
+}*/
+div#product-content ul li:last-child strong{
+	font-size: 25px;
+}
+#product-content h1{
+	    font-size: 18px;
+    text-transform: uppercase;
+}
+#product-content strong#id1{
+	font-size: 16px;
+    color: red;
+}
+#product-content strong#id2{
+	font-size: 24px;
+    font-weight: 500;
+    color: red;
+}
+#product-content sup {
+	font-size: 18px;
+	color: red;
+}
+#product-order select{
+	width: 100%;
+	height: 36px;
+}
+#product-order #size{
+	width: 65%;
+	display: inline-block;
+}
+#product-order #sl{
+	width: 30%;
+	display: inline-block;
+}
+.form-group input {
+	width: 100%;
+	height: 36px;
+}
+.form-group button{
+	width: 100%;
+	background-color: #76300a;
+	color: #fff;
+}
+#product-order ul{
+	list-style-type: unset;
+	padding-left: 15px;
+}

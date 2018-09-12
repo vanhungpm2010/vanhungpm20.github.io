@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Juky.vn</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/slider.css">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <body>
+    <div class="wrapper">
+      <section id="topbar">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12">
+              <ul class="nav top-left">
+                <li>
+                  <a href="#">
+                    <i class="fa fa-phone fa-fw"></i>
+                    <span>Hotline: </span><strong>123-456-789</strong>
+                  </a>
+                </li>
+              </ul>   
+              <ul class="nav top-right">
+                <li>
+                  <a href="#">
+                    <i class="fa fa-truck fa-fw"></i>
+                    <span>Giao hàng toàn quốc</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fa fa-globe fa-fw"></i>
+                    <span>Miễn phí giao hàng từ 5 đơn</span>
+                  </a>
+                </li>
+              </ul>
+              <div class="clearfix"></div>
+            </div> 
+          </div>
+        </div>
+      </section>
+      <!--header-->
+      <header id="header">
+        <div class="container">
+          <div class="banner">
+            <div class="row">
+              <div class="col-md-3">
+                <a href="index.html">
+                  <img src="images/logo-juky.png">
+                </a>
+              </div>
+              <div class="col-md-4">
+                <div class="input-group">
+                  <input type="text" class="form-control validate[required]" name="keyword" id="keyword" placeholder="Nhập từ khóa..." value="">
+                  <span class="input-group-btn">
+                    <button class="btn btn-site" type="submit"><i class="fa fa-search"></i> Tìm kiếm</button>
+                  </span>    
+                </div>
+              </div>
+              <div class="col-md-5">
+                <ul>
+                  <li>
+                    <a href="#">
+                      <i class="fa fa-map-marker fa-fw"></i>
+                      <span>Theo Dõi <br>Đơn Hàng</span>
+                    </a>
+                  </li>
+                  <li class="dropdown" id="member">
+                    <a href="#" data-toggle="dropdown"> 
+                      <i class="fa fa-user fa-fw"></i>
+                      <span>Đăng Nhập<br>Tài Khoản</span>
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">
+                        <i class="fa fa-sign-in fa-fw"></i>
+                        <span>Đăng nhập</span>
+                      </a></li>
+                      <li><a href="#">
+                        <i class="fa fa-user-plus fa-fw"></i>
+                        <span>Đăng kí</span>
+                      </a></li>
+                      <li><a href="#">
+                        <i class="fa fa-facebook fa-fw"></i>
+                        <span>Facebook</span>
+                      </a></li>
+                    </ul>
+                  </li>
+                  <li  id="shopping-cart">
+                    <a href="#" class="btn">
+                      <i class="fa fa-shopping-bag"></i>
+                      <span>Giỏ Hàng</span> 
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+
+        </div>
+      </header>
+      <!--menu nav-->
+      <nav id="navbar">
+        <div class="container">
+          <ul>
+            <li>
+              <a href="#">ÁO THUN
+                <i class="fa fa-angle-down"></i>
+              </a>
+              <ul class="sub-menu">
+                <li><a href="#">Áo Thun có cổ</a></li>
+                <li><a href="#">Áo Thun tay ngắn</a></li>
+                <li><a href="#">Áo Thun 3 lỗ</a></li>
+              </ul>
+            </li>
+            <li><a href="#">ÁO THUN TAY DÀI</a></li>
+            <li><a href="hodie.html">HODIE</a></li>
+            <li><a href="#">ÁO KHOÁC</a></li>
+            <li><a href="Jeans.html">QUẦN JEAN</a></li>
+            <li><a href="#">QUẦN SHORT</a></li>
+            <li><a href="#">ÁO SƠ MI NAM</a></li>
+            <li>
+              <a href="#">PHỤ KIỆN
+                <i class="fa fa-angle-down"></i>
+              </a>
+              
+              <ul class="sub-menu">
+                <li><a href="#">Nón</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <section id="slider">
+        <div class="container">
+          <div class="slide-show">
+            <div class="mySlides">
+              <img src="images/banner1.jpg" style="width: 100%">
+            </div>
+            <div class="mySlides">
+              <img src="images/baner2.jpg" style="width: 100%">
+            </div>
+            <div class="mySlides">
+              <img src="images/banner3.png" style="width: 100%">
+            </div>
+            <div class="mySlides">
+              <img src="images/banner4.png" style="width: 100%">
+            </div>
+            <div class="mySlides">
+              <img src="images/banner5.png" style="width: 100%">
+            </div>
+            <a class="slick-prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="slick-next" onclick="plusSlides(1)">&#10095;</a>
+          </div>
+          <br>
+          <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(0)"></span> 
+            <span class="dot" onclick="currentSlide(1)"></span> 
+            <span class="dot" onclick="currentSlide(2)"></span> 
+            <span class="dot" onclick="currentSlide(3)"></span> 
+            <span class="dot" onclick="currentSlide(4)"></span> 
+          </div>
+        </div>
+      </section>
+
+      <section id="quangcao">
+        <div class="container">
+          <h4>COLLECTIONS</h4>
+          <p>BỘ SƯU TẬP THỜI TRANG NAM & NỮ</p>
+          <div class="row">
+            <div class="col-sm-8">
+              <div class="row mrb30">
+                <div class="col-sm-5">
+                  <a href="#"><img src="images/hodie.jpg"></a>
+                </div>
+                <div class="col-sm-7">
+                  <a href="#"><img src="images/img1.jpg"></a>
+                </div>
+              </div>
+              <div class="row mrb30">
+                <div class="col-sm-7">
+                  <a href="#"><img src="images/img2.jpg"></a>
+                </div>
+                <div class="col-sm-5">
+                  <a href="#"><img src="images/img3.jpg"></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <a href="#"><img src="images/img5.jpg"></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="page">
+        <div class="container">
+          <div class="i-title">
+            <h2>Có thể bạn chưa biết</h2>
+          </div>
+        </div>
+      </section>
+      <section id="newpage">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12">
+              <h3>ĐĂNG KÝ NHẬP TIN KHUYẾN MÃI</h3>
+              <p>NHẬP EMAIL CỦA BẠN ĐỂ NHẬN THÔNG TIN KHUYẾN MÃI TẠI SHOP JUKY.VN</p>
+              <form>
+                <div class="form-group mrb20">
+                  <input type="text" name="email" placeholder="Nhập Email..."> <br>
+                </div>
+                <div class="form-group">
+                  <button type="submit" class="btn">Xác nhận</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer id="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-3">
+              <h4 class="title">HỆ THỐNG CỬA HÀNG</h4>
+              <p>
+                <strong>Cửa hàng chính: </strong> Số 99 đường Quang Trung phường 10 Quận Gò Vấp - Hồ Chí Minh
+              </p>
+              <p>
+                <strong>Cửa hàng chính: </strong> Số 99 đường Quang Trung phường 10 Quận Gò Vấp - Hồ Chí Minh
+              </p>
+              <p>
+                <strong>Cửa hàng chính: </strong> Số 99 đường Quang Trung phường 10 Quận Gò Vấp - Hồ Chí Minh
+              </p>
+              <p>
+                <strong>Cửa hàng chính: </strong> Số 99 đường Quang Trung phường 10 Quận Gò Vấp - Hồ Chí Minh
+              </p>
+            </div>
+            <div class="col-sm-3">
+              <h4 class="title">THÔNG TIN</h4>
+              <ul>
+                <li>Về Juky.vn</li>
+                <li>Chính Sách Bảo Mật</li>
+                <li>Quy Chế Hoạt Động</li>
+                <li>Chính Sách Đại Lý</li>
+                <li>Danh sách đại lý</li>
+              </ul>
+            </div>
+            <div class="col-sm-3">
+              <h4 class="title">HỢP TÁC</h4>
+              <ul>
+                <li>Hướng Dẫn Đặt Hàng</li>
+                <li>Giao Hàng Toàn Quốc</li>
+                <li>Khuyến Mãi</li>
+              </ul>
+            </div>
+            <div class="col-sm-3">
+              <h4 class="title">HỖ TRỢ</h4>
+              <ul>
+                <li>Chính Sách Đổi Trả</li>
+                <li>Hỗ Trợ Vận Chuyển</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div id="copy-right">
+          <div class="container">
+            <div class="row">
+              <div class="col-xs-12">
+                <p>Copyright 2012-2018 by Juky.vn - All Rights reserved - Doan Khanh Linh.Co.,ltd - MST : 0313155925</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <a href="#" id="back-top">
+        <img src="images/back-to-top.png">
+      </a>
+</div>
+<div class="loginModal">
+  
+</div>
+
+      <script>
+  //khai báo biến slideIndex đại diện cho slide hiện tại
+  var slideIndex;
+  // KHai bào hàm hiển thị slide
+  function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+     slides[i].style.display = "none";  
+   }
+   for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+
+  slides[slideIndex].style.display = "block";  
+  dots[slideIndex].className += " active";
+      //chuyển đến slide tiếp theo
+      slideIndex++;
+      //nếu đang ở slide cuối cùng thì chuyển về slide đầu
+      if (slideIndex > slides.length - 1) {
+        slideIndex = 0
+      }    
+      //tự động chuyển đổi slide sau 5s
+      setTimeout(showSlides, 5000);
+    }
+  //mặc định hiển thị slide đầu tiên 
+  showSlides(slideIndex = 0);
+
+
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+</script>
+<!---->
+<!-- Thư viện jquery đã nén phục vụ cho bootstrap.min.js  -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+</head>
+</body>
+</html>
